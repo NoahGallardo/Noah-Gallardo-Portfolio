@@ -1,0 +1,35 @@
+[
+  {
+    "slug": "example-film",
+    "title": "Example Film Project",
+    "category": "Videography / Film",
+    "year": "2024",
+    "description": "A short film exploring memory and place, shot on location over three days with a small crew.",
+    "thumbnail": "/images/projects/example-film-thumb.jpg",
+    "mediaType": "youtube",
+    "mediaUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+    "tools": ["Premiere Pro", "After Effects", "Sony FX3"]
+  },
+  {
+    "slug": "example-photo",
+    "title": "Example Photo Series",
+    "category": "Photography",
+    "year": "2024",
+    "description": "A photo series exploring light, texture, and quiet moments in everyday spaces.",
+    "thumbnail": "/images/projects/example-photo-thumb.jpg",
+    "mediaType": "images",
+    "mediaUrl": ["/images/projects/example-photo-1.jpg"],
+    "tools": ["Sony A7IV", "Lightroom"]
+  },
+  {
+    "slug": "example-code",
+    "title": "Example Creative Code Project",
+    "category": "Creative Coding",
+    "year": "2024",
+    "description": "An interactive generative piece exploring motion and audio-reactive visuals in the browser.",
+    "thumbnail": "/images/projects/example-code-thumb.jpg",
+    "mediaType": "vimeo",
+    "mediaUrl": "https://player.vimeo.com/video/123456789",
+    "tools": ["Three.js", "p5.js", "JavaScript"]
+  }
+]
