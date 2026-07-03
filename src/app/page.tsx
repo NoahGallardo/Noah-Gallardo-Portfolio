@@ -48,7 +48,7 @@ export default function Home() {
             Noah Gallardo
           </h1>
           <p className="mt-6 text-base uppercase tracking-[0.2em] text-cream-muted sm:text-lg">
-            Filmmaker · Photographer · Creative Technologist
+            Multimedia Creator &amp; Creative Technologist
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
             <Button href="#work" variant="solid">
@@ -97,13 +97,27 @@ export default function Home() {
             />
             <div>
               <h2 className="font-display text-3xl text-cream sm:text-4xl">About</h2>
-              <p className="mt-4 text-cream-muted">
-                I&apos;m Noah Gallardo, a filmmaker, photographer, and creative technologist
-                based in San Diego and a graduate of UC San Diego&apos;s Interdisciplinary
-                Computing and the Arts (ICAM) program. My work blends a cinematic eye with
-                hands-on technical craft, from on-set cinematography to writing the code
-                behind a generative visual.
-              </p>
+              <div className="mt-4 space-y-4 text-cream-muted">
+                <p>
+                  I&apos;m Noah Gallardo, a San Diego-based multimedia creator and creative
+                  technologist with a passion for bringing ideas to life through visual
+                  storytelling. As a graduate of UC San Diego&apos;s Interdisciplinary Computing
+                  and the Arts (ICAM) program, I&apos;ve developed a multidisciplinary approach
+                  that blends filmmaking, photography, design, and technology.
+                </p>
+                <p>
+                  My work ranges from live events and music festivals to branded content,
+                  creative coding, and interactive experiences. Whether I&apos;m behind the
+                  camera, leading a production, or developing digital experiences through code,
+                  I&apos;m driven by curiosity and a desire to create work that is both visually
+                  compelling and thoughtfully crafted.
+                </p>
+                <p>
+                  I enjoy exploring new ways to combine creativity with technology, using both to
+                  tell stories, solve problems, and create experiences that leave a lasting
+                  impact.
+                </p>
+              </div>
               <Button href="/about" variant="outline" className="mt-8">
                 Full Bio
               </Button>
