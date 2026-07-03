@@ -6,10 +6,20 @@ import { SparklesCore } from "@/components/ui/SparklesCore";
 import { ScrollReveal } from "@/components/ui/ScrollReveal";
 import { SafeImage } from "@/components/ui/SafeImage";
 import { ProjectCard } from "@/components/projects/ProjectCard";
-import { getAllProjects } from "@/lib/projects";
+import { getProjectBySlug } from "@/lib/projects";
+import type { Project } from "@/lib/types";
+
+const SELECTED_WORK_SLUGS = [
+  "juelz-sun-god-festival-26",
+  "sungod-festival-2026",
+  "devdea-live-at-nova-san-diego",
+  "goldenvoice-surf-club",
+];
 
 export default function Home() {
-  const projects = getAllProjects();
+  const selectedWorks = SELECTED_WORK_SLUGS.map(getProjectBySlug).filter(
+    (project): project is Project => project !== undefined
+  );
 
   return (
     <>
@@ -59,8 +69,8 @@ export default function Home() {
           </p>
         </ScrollReveal>
 
-        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
-          {projects.map((project, i) => (
+        <div className="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2">
+          {selectedWorks.map((project, i) => (
             <ScrollReveal key={project.slug} delay={i * 0.1}>
               <ProjectCard project={project} />
             </ScrollReveal>
@@ -81,7 +91,7 @@ export default function Home() {
         <ScrollReveal>
           <div className="grid grid-cols-1 gap-12 md:grid-cols-2 md:items-center">
             <SafeImage
-              src="/images/noah-portrait.jpg"
+              src="/images/noah-gallardo.jpg"
               alt="Noah Gallardo"
               className="aspect-[4/5] w-full rounded-md"
             />

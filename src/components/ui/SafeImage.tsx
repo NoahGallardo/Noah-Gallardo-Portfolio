@@ -15,9 +15,10 @@ interface SafeImageProps {
   alt: string;
   category?: Category;
   className?: string;
+  unoptimized?: boolean;
 }
 
-export function SafeImage({ src, alt, category, className }: SafeImageProps) {
+export function SafeImage({ src, alt, category, className, unoptimized }: SafeImageProps) {
   const [errored, setErrored] = useState(false);
   const tint = category ? FALLBACK_TINT[category] : "bg-charcoal-2";
 
@@ -44,6 +45,7 @@ export function SafeImage({ src, alt, category, className }: SafeImageProps) {
         className="object-cover"
         onError={() => setErrored(true)}
         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        unoptimized={unoptimized}
       />
     </div>
   );

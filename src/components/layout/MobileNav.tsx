@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import Link from "next/link";
 import clsx from "clsx";
-import { X, Download } from "lucide-react";
+import { X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { NAV_LINKS } from "@/lib/constants";
 
@@ -66,14 +66,6 @@ export function MobileNav({
                 </Link>
               );
             })}
-            <a
-              href="/resume.pdf"
-              download
-              onClick={onClose}
-              className="flex items-center gap-2 text-lg tracking-wide text-cream-muted hover:text-accent"
-            >
-              Resume <Download size={18} />
-            </a>
           </nav>
         </motion.div>
       )}

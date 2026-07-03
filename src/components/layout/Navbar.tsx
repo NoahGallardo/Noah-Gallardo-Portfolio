@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import clsx from "clsx";
-import { Menu, Download } from "lucide-react";
+import { Menu } from "lucide-react";
 import { NAV_LINKS } from "@/lib/constants";
 import { MobileNav } from "./MobileNav";
 
@@ -46,13 +46,6 @@ export function Navbar() {
                 </Link>
               );
             })}
-            <a
-              href="/resume.pdf"
-              download
-              className="flex items-center gap-1.5 text-sm tracking-wide text-cream-muted transition-colors hover:text-accent"
-            >
-              Resume <Download size={14} />
-            </a>
           </nav>
 
           <button

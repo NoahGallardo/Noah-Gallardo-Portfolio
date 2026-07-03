@@ -8,11 +8,14 @@ interface ProjectBase {
   description: string;
   thumbnail: string;
   tools: string[];
+  featured?: boolean;
 }
 
 export type Project =
   | (ProjectBase & { mediaType: "youtube" | "vimeo"; mediaUrl: string })
-  | (ProjectBase & { mediaType: "images"; mediaUrl: string[] });
+  | (ProjectBase & { mediaType: "images"; mediaUrl: string[] })
+  | (ProjectBase & { mediaType: "website"; mediaUrl: string })
+  | (ProjectBase & { mediaType: "videos"; mediaUrl: string[] });
 
 export interface SkillGroup {
   name: string;
