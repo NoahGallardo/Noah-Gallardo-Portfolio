@@ -27,6 +27,19 @@ export const metadata: Metadata = {
   },
   description:
     "Portfolio of Noah Gallardo — filmmaker, photographer, and creative technologist.",
+  openGraph: {
+    title: "Noah Gallardo — Filmmaker, Photographer, Creative Technologist",
+    description:
+      "Portfolio of Noah Gallardo — filmmaker, photographer, and creative technologist.",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Noah Gallardo — Filmmaker, Photographer, Creative Technologist",
+    description:
+      "Portfolio of Noah Gallardo — filmmaker, photographer, and creative technologist.",
+    images: ["/og-image.png"],
+  },
 };
 
 export default function RootLayout({
