@@ -43,7 +43,6 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          <p className="mb-4 text-xs uppercase tracking-[0.3em] text-cream-muted">Portfolio</p>
           <h1 className="font-display text-5xl italic tracking-tight text-cream sm:text-7xl lg:text-8xl">
             Noah Gallardo
           </h1>
