@@ -15,6 +15,7 @@ const SELECTED_WORK_SLUGS = [
   "juelz-sun-god-festival-26",
   "devdea-live-at-nova-san-diego",
   "goldenvoice-surf-club",
+  "asce-sungod-takeover-teaser-2026",
 ];
 
 export default function Home() {

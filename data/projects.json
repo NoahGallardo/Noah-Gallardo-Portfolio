@@ -117,7 +117,7 @@
     "mediaType": "youtube",
     "mediaUrl": "https://www.youtube.com/embed/DXXDXYkQFAU",
     "tools": ["Camera Operation", "Multi-Camera Production", "Live Event Coverage"],
-    "featured": false
+    "featured": true
   },
   {
     "slug": "asce-sungod-takeover-teaser-2026",
@@ -129,7 +129,7 @@
     "mediaType": "youtube",
     "mediaUrl": "https://www.youtube.com/embed/0cNFaEDpDYM",
     "tools": ["Camera Operation", "Creative Direction", "Promotional Content"],
-    "featured": false
+    "featured": true
   },
   {
     "slug": "code-red-palacio-recap",
