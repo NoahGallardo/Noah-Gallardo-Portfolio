@@ -1,5 +1,21 @@
 [
   {
+    "slug": "pegassi-hard-summer-la-2026",
+    "title": "Pegassi Hard Summer LA 2026",
+    "category": "Videography / Film",
+    "year": "2026",
+    "description": "Director: Anthony Alexander\nCamera Operator: Noah Gallardo\nEditor: Anthony Alexander",
+    "thumbnail": "/images/projects/pegassi-hard-summer-thumb.jpg",
+    "mediaType": "videos",
+    "mediaUrl": [
+      "https://www.youtube.com/embed/FAVS2yDRFpk",
+      "https://www.youtube.com/embed/XaRRmGrqK9w",
+      "https://www.youtube.com/embed/F1mDrybIVpM"
+    ],
+    "tools": ["Camera Operation", "Live Event Coverage", "Music Festival"],
+    "featured": true
+  },
+  {
     "slug": "juelz-sun-god-festival-26",
     "title": "Juelz Sun God Festival '26 Multi-Cam Set",
     "category": "Videography / Film",

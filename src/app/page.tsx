@@ -10,6 +10,7 @@ import { getProjectBySlug } from "@/lib/projects";
 import type { Project } from "@/lib/types";
 
 const SELECTED_WORK_SLUGS = [
+  "pegassi-hard-summer-la-2026",
   "juelz-sun-god-festival-26",
   "sungod-festival-2026",
   "devdea-live-at-nova-san-diego",
