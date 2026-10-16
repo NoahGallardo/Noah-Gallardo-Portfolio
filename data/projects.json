@@ -16,6 +16,22 @@
     "featured": true
   },
   {
+    "slug": "star-monster",
+    "title": "STAR MONSTER",
+    "category": "Videography / Film",
+    "year": "2026",
+    "description": "Director: Noah Gallardo, Camera Operator: Dylan Tran, Editor: Noah Gallardo",
+    "thumbnail": "/images/projects/star-monster-thumb.jpg",
+    "mediaType": "videos",
+    "mediaUrl": [
+      "https://www.youtube.com/embed/D35H-TzEsBA",
+      "https://www.youtube.com/embed/nRpKv8xgXuk",
+      "https://www.youtube.com/embed/QQZsUTwEISo"
+    ],
+    "tools": ["Director", "Camera Operation", "Video Editing"],
+    "featured": true
+  },
+  {
     "slug": "juelz-sun-god-festival-26",
     "title": "Juelz Sun God Festival '26 Multi-Cam Set",
     "category": "Videography / Film",
