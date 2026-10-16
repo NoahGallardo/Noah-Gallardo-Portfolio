@@ -29,7 +29,7 @@
       "https://www.youtube.com/embed/QQZsUTwEISo"
     ],
     "tools": ["Director", "Camera Operation", "Video Editing"],
-    "featured": true
+    "featured": false
   },
   {
     "slug": "juelz-sun-god-festival-26",
@@ -105,7 +105,7 @@
     "mediaType": "youtube",
     "mediaUrl": "https://www.youtube.com/embed/qZDmGkDq2BE",
     "tools": ["Camera Operation", "Video Editing", "Live Event Coverage"],
-    "featured": true
+    "featured": false
   },
   {
     "slug": "devdea-live-at-nova-san-diego",
